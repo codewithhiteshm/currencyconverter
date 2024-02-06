@@ -1,0 +1,46 @@
+/* Add your CSS styles here */body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue; /* Set the background color to light blue */
+}
+
+.converter {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white; /* Set the background color for the converter to white */
+}
+
+h1 {
+  text-align: center; /* Center the heading text */
+  color: #333; /* Set the heading text color to a dark shade */
+}
+
+
+.converter div {
+  margin-bottom: 10px;
+}
+
+.converter label {
+  display: inline-block;
+  width: 80px;
+}
+
+.converter input,
+.converter select,
+.converter button {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.converter button {
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+}
